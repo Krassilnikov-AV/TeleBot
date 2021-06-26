@@ -2,7 +2,7 @@
  * Copyright (c) 2021 Tander, All Rights Reserved.
  */
 
-package service;
+package ru.spb.prog;
 
 @Component
 @PropertySource("classpath:telegram.properties")
