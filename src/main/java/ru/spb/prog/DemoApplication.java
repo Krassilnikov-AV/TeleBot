@@ -4,15 +4,9 @@
 
 package ru.spb.prog;
 
-@Component
-@PropertySource("classpath:telegram.properties")
+
+import ru.spb.prog.service.UserService;
+
 public class DemoApplication {
-	private final UserService userService;
-	private final JavaMailSender javamailSender;
 
-	@Value("New applications")
-	private String emailSubject;
-
-	@Value("New applications")
-	private String emailSubject;
 }

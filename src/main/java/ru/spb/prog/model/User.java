@@ -4,8 +4,6 @@
 
 package ru.spb.prog.model;
 
-/**
- * Класс User
- */
+@Entity
 public class User {
 }

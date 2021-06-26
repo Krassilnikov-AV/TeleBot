@@ -3,9 +3,14 @@
  */
 
 package ru.spb.prog.bot;
+@PropertySource("classpath:telegram.properies")
+public class ChatBot extends TelegramLongPollingBot {
 
-/**
- * Класс ChatBot
- */
-public class ChatBot {
+	private static final String BROADCAST ="broadcast";
+	private static final String LIST_USER ="user";
+
+	@Value("${bot.name}")
+	private String botName;
+
+
 }
